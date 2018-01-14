@@ -33,10 +33,10 @@ const BasicExample = () => (
 
 const Home = () => (
     <div>
-        <h2>Home</h2>
+        <h2>Norbert Brzeski-portfolio</h2>
         <div style={StyleSheet.Header}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, voluptate.</div>
-        <div style={StyleSheet.Main}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, impedit?</div>\
-        <div style={StyleSheet.Footer}><p style={StyleSheet.Text}>https://github.com/norbertbrzeski/norbertbrzeski.github.io</p></div>
+        <div style={StyleSheet.Main}>/</div>
+        <div style={StyleSheet.Footer}><p style={StyleSheet.Text}>https://github.com/norbertbrzeski/norbertbrzeski.github.io</p> <p style={StyleSheet.Text}> Norbert Brzeski ©</p></div>
     </div>
 )
 
@@ -87,13 +87,13 @@ const GIT = () => (
 
 const JS = () => (
     <div style={StyleSheet.SectionBg}>
-        <h2>JS</h2>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum incidunt mollitia numquam porro quia. Amet harum ipsum obcaecati qui vel.</h2>
     </div>
 )
 
 const ReactJs = () => (
     <div style={StyleSheet.SectionBg}>
-        <h2>React lorem1000</h2>
+        <h2>React Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda autem consequuntur cum dignissimos dolores eligendi ipsam, labore quas sunt?</h2>
     </div>
 )
 

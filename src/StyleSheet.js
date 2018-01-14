@@ -34,11 +34,12 @@ Footer : {
 marginTop:'-20px'
 
 },
-Body :{
-    backgroundImage: `url(${img5})`,
-    color:'white',
-    height: '100vh'
-},
+    Body :{
+        backgroundImage: `url(${img5})`,
+        color:'white',
+        height: '100vh',
+        fontFamily: 'Sedgwick Ave Display, cursive'
+    },
 Text : {
     fontSize:'50px',
     paddingTop: '100px'
