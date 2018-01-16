@@ -34,7 +34,7 @@ const BasicExample = () => (
 const Home = () => (
     <div>
         <h2>Norbert Brzeski-portfolio</h2>
-        <div style={StyleSheet.Header}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, voluptate.</div>
+        <div style={StyleSheet.Header}> lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, voluptate.</div>
         <div style={StyleSheet.Main}>/</div>
         <div style={StyleSheet.Footer}><p style={StyleSheet.Text}>https://github.com/norbertbrzeski/norbertbrzeski.github.io</p> <p style={StyleSheet.Text}> Norbert Brzeski ©</p></div>
     </div>
