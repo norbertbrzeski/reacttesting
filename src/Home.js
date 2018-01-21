@@ -5,12 +5,17 @@ import {
     Link
 } from 'react-router-dom'
 import StyleSheet from './StyleSheet'
-import {Button} from 'react-bootstrap'
+import {Button,Row,Col} from 'react-bootstrap'
 
 
 const BasicExample = () => (
     <Router>
         <div style={StyleSheet.MainSize}>
+
+
+            <Row>
+                <Col xs={12} sm={3} md={2} lg={1}>
+
             <ul style={StyleSheet.NavBar} >
                 <Link to="/">  <Button   bsSize="large">      <li style={ StyleSheet.NavLinks}>Home</li>  </Button></Link>
                 <Link to="/Html">  <Button  bsSize="large">   <li style={ StyleSheet.NavLinks}>Html</li></Button></Link>
@@ -19,7 +24,8 @@ const BasicExample = () => (
                 <Link to="/JS"> <Button bsSize="large">   <li style={ StyleSheet.NavLinks}>JS</li></Button></Link>
                 <Link to="/ReactJs"> <Button  bsSize="large">  <li style={ StyleSheet.NavLinks}>ReactJs</li></Button></Link>
             </ul>
-
+                </Col>
+            </Row>
 
             <Route exact path="/" component={Home}/>
             <Route path="/Html" component={Html}/>
